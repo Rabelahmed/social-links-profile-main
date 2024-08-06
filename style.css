@@ -1,0 +1,102 @@
+@font-face {
+    font-family: inter-VariableFont;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Grey-900);
+    color: var(--White);
+    font: 14px  "inter-VariableFont", serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.links-profile{
+    background-color: var(--Grey-800);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+}
+
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+figure img {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 30%;
+}
+figcaption{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+.location{
+    color: var(--Green);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 0;
+
+}
+
+.profession{
+    color: grey;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+li{
+    margin:6px 0;
+    padding: 8px  0;
+    background-color: var(--Grey-700);
+    border-radius: 5px;
+    width: 85%;
+}
+
+a{
+    color: var(--White);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+li:hover{
+    width: 88%;
+    transition: 0.5s ease;
+    font-size: 15px;
+}
