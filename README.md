@@ -15,8 +15,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Site]()
+- Solution URL: [Solution](https://github.com/Rabelahmed/social-links-profile-main)
+- Live Site URL: [Site](https://rabelahmed.github.io/social-links-profile-main/)
 
 ### Built with
 
